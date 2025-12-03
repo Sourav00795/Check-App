@@ -1,7 +1,5 @@
 {
-  "name": "Copy of NESTINGAI V1.0",
-  "description": "NESTINGAI is a web application that performs sheet-metal and linear-material (rods/pipes/tubes/channels) nesting and cut optimization. It provides visual layouts, waste calculation, and exportable reports to streamline manufacturing processes.",
-  "requestFramePermissions": [
-    "clipboard-read"
-  ]
+  "name": "HookFiles Pro",
+  "description": "A high-performance local file indexing and bulk search tool using the File System Access API with legacy fallbacks.",
+  "requestFramePermissions": []
 }

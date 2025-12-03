@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App, { ThemeProvider, OutputDataProvider, ToastProvider } from './App';
+import App from './App';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -10,12 +10,6 @@ if (!rootElement) {
 const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
-    <ThemeProvider>
-      <ToastProvider>
-        <OutputDataProvider>
-          <App />
-        </OutputDataProvider>
-      </ToastProvider>
-    </ThemeProvider>
+    <App />
   </React.StrictMode>
 );

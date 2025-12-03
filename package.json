@@ -1,5 +1,5 @@
 {
-  "name": "copy-of-nestingai-v1.0",
+  "name": "hookfiles-pro",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +10,7 @@
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-router-dom": "^7.9.3",
-    "@google/genai": "0.15.0",
-    "xlsx": "latest"
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
